@@ -121,7 +121,7 @@ const Goat = () => {
   useEffect(() => {
     const fetchDataGoat = async () => {
       const response = await axios.get(
-        "https://corsanywhere.herokuapp.com/https://goatswap.xyz/api/trpc/collectionMetas.all",
+        "https://goatswap.xyz/api/trpc/collectionMetas.all",
         {
           headers: {
             "Access-Control-Allow-Origin": "*",
